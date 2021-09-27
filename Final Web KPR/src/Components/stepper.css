@@ -1,0 +1,100 @@
+  .indexedStep {
+    /* color: white; */
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    background-color: rgba(53, 0, 48, 0.8);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .indexedStep.accomplished {
+    background-color: rgb(97, 1, 100);
+  }
+
+  .RSPBprogressBar {
+    height: 10px;
+    width: 100%;
+    /* margin-left: 9.7vw; */
+    /* align-self: center; */
+    margin-top: 5vh;
+    line-height: 1;
+    border-radius: 10px;
+    position: relative;
+    background-color: rgba(211, 211, 211, 0.6);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 0;
+  }
+  
+  .RSPBprogressBar .RSPBstep {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+    position: absolute;
+    transform: translateX(-50%);
+    transition-property: all;
+    transition-timing-function: ease;
+  }
+  
+  .RSPBprogressBar .RSPBprogressBarText {
+    color: white;
+    font-size: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .RSPBprogressBar .RSPBprogression {
+    position: absolute;
+    transition: width 0.3s ease;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 10px;
+    background: rgba(0, 116, 217, 0.8);
+    z-index: -1;
+  }
+  
+  .stepperText {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin-left: 8vw;
+    justify-content: space-between;
+    /* justify-content: center; */
+    /* align-items: center; */
+  
+  }
+
+  .textContainer {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 0px;
+    
+  }
+
+  .text {
+    margin-top: 20px ;
+    width : 0px;
+    font-size: 12px;
+    text-align: center;
+    align-items: center;
+  }
+
+  #dataA {
+    align-items: center;
+    margin-left: 10px;
+    text-align: center;
+    /* color: #6A0070; */
+  }
+
+  .mainForma {
+    padding: 0 10%;
+  }
